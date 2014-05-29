@@ -412,6 +412,49 @@
           <div id="mailAccountsView" class="tab">
             <input type="hidden" const:name="mailAccountsJSON" const:id="mailAccountsJSON"
               var:value="mailAccounts"/>
+            <div id="mailAccountsListWrapper" class="listWrapper"
+                 ><ul id="mailAccountsList"
+                      ><!-- space --></ul
+                      ></div>
+            <var:if condition="mailAuxiliaryUserAccountsEnabled">
+              <div const:id="mailAccountsToolbar" class="bottomToolbar">
+                <a const:id="mailAccountAdd" class="bottomButton" href="#">
+                  <span><img rsrc:src="add-icon.png" label:title="Add" />
+                </span></a>
+                <a const:id="mailAccountDelete" class="bottomButton" href="#">
+                  <span><img rsrc:src="remove-icon.png" label:title="Delete" />
+                </span></a>
+              </div>
+            </var:if>
+            <div id="mailAccountEditor">
+              <fieldset const:id="accountInfo">
+                  <div class="inline-field">
+                    <label><var:string label:value="Server Name:"/></label>
+                    <input const:name="serverName" const:id="serverName" type="text" const:value=""/>
+                  </div>
+                  <div class="inline-field">
+                    <label><var:string label:value="Port:"/></label>
+                      <input const:name="port" const:id="port" type="text" const:value=""/>
+                  </div>
+                  <div class="checkbox-list"><label><var:string label:value="Encryption:"/></label>
+                      <label><input const:name="encryption" type="radio" const:value="none"/>
+                      <var:string label:value="None"/></label>
+                      <label><input const:name="encryption" type="radio" const:value="ssl"/>
+                      <var:string label:value="SSL"/></label>
+                      <label><input const:name="encryption" type="radio" const:value="tls"/>
+                      <var:string label:value="TLS"/></label>
+                  </div>
+                  <div class="inline-field">
+                    <label><var:string label:value="User Name:"/></label>
+                    <input const:name="userName" const:id="userName" type="text" const:value=""/>
+                  </div>
+                  <div class="inline-field">
+                    <label><var:string label:value="Password:"/></label>
+                    <input const:name="password" const:id="password" type="password" const:value=""/>
+                  </div>
+                <input const:name="encryption" type="hidden" const:value="none"/>
+              </fieldset>
+
               <script type="text/javascript">
                 var mailCustomFromEnabled = <var:string value="mailCustomFromEnabled" const:escapeHTML="NO"/>;
               </script>
