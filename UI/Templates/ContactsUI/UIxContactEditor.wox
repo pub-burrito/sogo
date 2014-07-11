@@ -41,11 +41,13 @@
         <li target="addressesInfos">
           <span><var:string label:value="Address" /></span>
         </li>
+<!--
         <var:if condition="supportPhotos">
           <li target="photos">
             <span><var:string label:value="Photos" /></span>
           </li>
         </var:if>
+-->
         <li target="otherInfos">
           <span><var:string label:value="Other" /></span>
         </li>
