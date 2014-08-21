@@ -142,7 +142,7 @@ div#header a:hover
 { text-decoration: none; }
 
 DIV.linkbanner
-{ background-color: #46962D  ;
+{ background-color: #808080  ;
   width: 100%;
   top: 0px;
   left: 0px;
@@ -197,7 +197,7 @@ DIV.linkbanner SPAN
   font-weight: bold; }
 
 DIV.linkbanner A:hover
-{ background-color: #69be28;
+{ background-color: #A0A0A0;
   color: #ffffff;
   transition: background-color 0.2s;
   -webkit-transition:  background-color 0.2s }
@@ -236,11 +236,11 @@ DIV.appNav{
   font-weight: 100;
   float: left;
   position: relative;
-  border-right: 1px solid #69be28;
+  border-right: 1px solid #E0E0E0;
 }
 
 DIV.appNav DIV.appNavMenu {
-    background-color: #46962d;
+    background-color: #606060;
     position: absolute;
     top: 42px;
     z-index: 100;
@@ -257,7 +257,7 @@ DIV.appNav DIV.appNavMenu > a {
     font-size: 14px;
 }
 DIV.appNav DIV.appNavMenu > a:hover{
-    background-color: #69be28;
+    background-color: #A0A0A0;
 }
 DIV.linkbanner SPAN.active{
   font-weight: normal;
@@ -272,7 +272,7 @@ DIV.appNav .dropdown .buttonMenuArrow{
   position: static;
 }
 DIV.appNav .dropdown:hover{
-  background-color: #69be28;
+  background-color: #A0A0A0;
 }
 DIV.userMenu{
   float: right;
@@ -389,7 +389,7 @@ UL.choiceMenu LI._chosen:hover
 .menu LI:hover,
 .menu LI.selected,
 .menu LI.submenu-selected
-{ background-color: #7BC143;
+{ background-color: #A0A0A0;
   color: #fff; }
 
 .menu LI:hover span.muted
@@ -1232,13 +1232,14 @@ SPAN.toolbarSeparator
   width: 0px;
 }
 SPAN.toolbarSeparator + .toolbarButton{
-  border-left:1px solid #75ca34;
+  border-left:1px solid #E0E0E0;
 }
 DIV.toolbar IMG.buttonImage
 { height: 24px;
   margin-top: 8px;
   padding: 0px;
-  display: none;
+  /*display: none;*/
+  vertical-align: top;
 }
 
 DIV.toolbar A.toolbarButton,
