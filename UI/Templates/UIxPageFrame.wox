@@ -71,7 +71,7 @@
                 </var:if></var:if>
 
                 <var:if condition="isContacts">
-                  <span class="active"><var:string label:value="Address Book" /></span>
+                  <span class="active"><var:string label:value="Contacts" /></span>
                 </var:if>
                 <var:if condition="userHasMailAccess">
                 <var:if condition="isMail">
@@ -93,7 +93,7 @@
                     </var:if>
                   </var:if>
                   <var:if condition="isContacts" const:negate="YES">
-                    <a id="contactsBannerLink" var:href="relativeContactsPath"><var:string label:value="Address Book" /></a>
+                    <a id="contactsBannerLink" var:href="relativeContactsPath"><var:string label:value="Contacts" /></a>
                   </var:if>
                 </div>
 
