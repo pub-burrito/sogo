@@ -1,0 +1,10 @@
+#!/bin/bash
+username='zentyal'
+password='zentyal'
+hostname='zentyal.local'
+
+PATH=/usr/local/bin:$PATH
+
+sshpass -p $password ssh $username@$hostname 'sudo service sogo restart'
+sleep 1
+open http://zentyal.local/SOGo/
