@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>207FB362-3FCE-466E-8D5F-E1B95334D913</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WorxCloud</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D99E8F56-7716-4F8D-8FAC-0370E2E50F2B</key>
+		<string>https://github.com/pub-burrito/sogo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WorxCloud/WorxCloud.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D99E8F56-7716-4F8D-8FAC-0370E2E50F2B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pub-burrito/sogo</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D99E8F56-7716-4F8D-8FAC-0370E2E50F2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D99E8F56-7716-4F8D-8FAC-0370E2E50F2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sogo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

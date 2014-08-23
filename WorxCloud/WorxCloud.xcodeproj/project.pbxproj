@@ -6,10 +6,41 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		734CDDAE19A5799C00746D6E /* Main */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Main; path = ../Main; sourceTree = "<group>"; };
+		734CDDAF19A5799C00746D6E /* Migration */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Migration; path = ../Migration; sourceTree = "<group>"; };
+		734CDDB019A5799C00746D6E /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NEWS; path = ../NEWS; sourceTree = "<group>"; };
+		734CDDB119A5799C00746D6E /* OGoContentStore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OGoContentStore; path = ../OGoContentStore; sourceTree = "<group>"; };
+		734CDDB219A5799C00746D6E /* OpenChange */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OpenChange; path = ../OpenChange; sourceTree = "<group>"; };
+		734CDDB319A5799C00746D6E /* packaging */ = {isa = PBXFileReference; lastKnownFileType = folder; name = packaging; path = ../packaging; sourceTree = "<group>"; };
+		734CDDB419A5799C00746D6E /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = ../Scripts; sourceTree = "<group>"; };
+		734CDDB519A5799C00746D6E /* SoObjects */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SoObjects; path = ../SoObjects; sourceTree = "<group>"; };
+		734CDDB619A5799C00746D6E /* SOPE */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SOPE; path = ../SOPE; sourceTree = "<group>"; };
+		734CDDB719A5799C00746D6E /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Tests; path = ../Tests; sourceTree = "<group>"; };
+		734CDDB819A5799C00746D6E /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TODO; path = ../TODO; sourceTree = "<group>"; };
+		734CDDB919A5799C00746D6E /* Tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Tools; path = ../Tools; sourceTree = "<group>"; };
+		734CDDBA19A5799C00746D6E /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UI; path = ../UI; sourceTree = "<group>"; };
+		734CDDBB19A5799C00746D6E /* Version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Version; path = ../Version; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		734CDDA319A5790700746D6E = {
 			isa = PBXGroup;
 			children = (
+				734CDDAE19A5799C00746D6E /* Main */,
+				734CDDAF19A5799C00746D6E /* Migration */,
+				734CDDB019A5799C00746D6E /* NEWS */,
+				734CDDB119A5799C00746D6E /* OGoContentStore */,
+				734CDDB219A5799C00746D6E /* OpenChange */,
+				734CDDB319A5799C00746D6E /* packaging */,
+				734CDDB419A5799C00746D6E /* Scripts */,
+				734CDDB519A5799C00746D6E /* SoObjects */,
+				734CDDB619A5799C00746D6E /* SOPE */,
+				734CDDB719A5799C00746D6E /* Tests */,
+				734CDDB819A5799C00746D6E /* TODO */,
+				734CDDB919A5799C00746D6E /* Tools */,
+				734CDDBA19A5799C00746D6E /* UI */,
+				734CDDBB19A5799C00746D6E /* Version */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +53,8 @@
 			buildConfigurationList = 734CDDAB19A5790700746D6E /* Build configuration list for PBXLegacyTarget "WorxCloud" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/make;
+			buildToolPath = "/Users/robertoandrade/Documents/workspace.cloud.studio/sogo/remote-build";
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = WorxCloud;
@@ -165,6 +197,7 @@
 				734CDDAD19A5790700746D6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
