@@ -374,10 +374,16 @@ static NSString *inboxFolderName = @"INBOX";
   namespaces = [NSMutableArray arrayWithCapacity: 10];
   [self _appendNamespaces: namespaces];
   max = [namespaces count];
+    
+  [self logWithFormat: @"NAMESPACES: %d", max];
+    
   for (count = 0; count < max; count++)
     {
       folders = [self _allFoldersFromNS: [namespaces objectAtIndex: count]
                          subscribedOnly: subscribedOnly];
+        
+      [self logWithFormat: @"NAMESPACE: %d = %@ (folders: %d)", count, [namespaces objectAtIndex: count], [folders count]];
+        
       if ([folders count])
         {
           [folderPaths removeObjectsInArray: folders];
@@ -388,6 +394,16 @@ static NSString *inboxFolderName = @"INBOX";
     sortUsingSelector: @selector (localizedCaseInsensitiveCompare:)];
   [folderPaths replaceObjectsInRange: NSMakeRange (0, 0)
 	       withObjectsFromArray: mainFolders];
+
+    int i;
+    count = [folderPaths count];
+    
+    [self logWithFormat: @"FOLDERS: %d", count];
+    
+    for (i = 0; i < count; i++)
+	{
+        [self logWithFormat: @"- FOLDER: %@", [folderPaths objectAtIndex: i]];
+	}
 
   return folderPaths;
 }

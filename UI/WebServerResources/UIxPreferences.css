@@ -17,7 +17,10 @@ DIV.bottomToolbar
 #mailAccountsToolbar
 { left: 5px;
   bottom: 9px;
-  width: 130px; }
+  width: 130px; 
+  display: block;
+  position: absolute;
+}
 
 TABLE.categoriesList
 { width: 100%; }
@@ -146,7 +149,9 @@ P.infoMessage#passwordError
   bottom: 30px;
 //  left: 140px;
   padding: 0px;
-  right: 5px; }
+  right: 5px; 
+  top: 160px;
+}
 
 #mailAccountEditor dl
 { margin: 5px; }
@@ -156,11 +161,11 @@ P.infoMessage#passwordError
   left: 5px;
   width: 130px;
   border-top: 1px solid #9b9b9b;
-  display: none;
+  display: block;
 position: relative;}
 
 fieldset#accountInfo {
-    display: none;
+    display: block;
 }
 
 #mailAccountsList

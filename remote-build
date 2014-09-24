@@ -6,4 +6,4 @@ hgfspath='workspace.cloud.studio/sogo/'
 
 PATH=/usr/local/bin:$PATH
 
-sshpass -p $password ssh $username@$hostname 'cd /mnt/hgfs/'$hgfspath'; sudo make install'
+sshpass -p $password ssh $username@$hostname 'cd /mnt/hgfs/'$hgfspath'; ./configure; sudo make install'
